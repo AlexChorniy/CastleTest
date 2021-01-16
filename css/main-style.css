@@ -1,0 +1,16 @@
+@import './header.css'screen;
+@import './main.css'screen;
+@import './footer.css'screen;
+@import './balls.css'screen;
+@import './wrapper.css';
+@import './media.css'screen;
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: rgb(41, 1, 108);
+}
+

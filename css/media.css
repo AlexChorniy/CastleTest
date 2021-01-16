@@ -1,0 +1,223 @@
+@media screen and (max-width: 1294px) {
+      .text-img {
+            height: 48px;
+            width: 389px;
+      }
+
+      .text-container {
+            font-size: 24px;
+            position: relative;
+            z-index: 8;
+      }
+
+      .parallelogram {
+            height: 70px;
+            width: 370px;
+      }
+
+      .parallelogram::before {
+            height: 70px;
+            width: 370px;
+      }
+
+      .parallelogram-text {
+            font-size: 20px;
+            line-height: 70px;
+      }
+
+      .slogan-block {
+            font-size: 36px;
+            width: 80%;
+      }
+
+      .man {
+            left: 30%;
+      }
+
+      .cup-title {
+            font-size: 17px;
+      }
+
+      .cup-subtitle {
+            font-size: 7px;
+      }
+}
+
+@media screen and (max-width: 992px) {
+      .wrapper {
+            padding-top: 2%;
+            padding-left: 2%;
+            padding-right: 2%;
+            padding-bottom: 1%;
+            background: url('../images/mob-bg.png') no-repeat;
+            background-size: cover;
+            grid-template-columns: 100%;
+            grid-template-rows: 120px 355px minmax(min-content, 137px) 70px 45px 107px 116px 58px;
+            grid-template-areas:
+                  "l"
+                  "i"
+                  "t"
+                  "b"
+                  "a"
+                  "h"
+                  "f"
+                  "g"
+            ;
+      }
+
+      .page-logo {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+      }
+
+      .slogan-block {
+            display: flex;
+            position: relative;
+            align-items: flex-end;
+            width: 100%;
+            position: relative;
+            padding-bottom: 81px;
+      }
+
+      p.slogan {
+            width: 100%;
+      }
+
+      .slogan-text {
+            display: inline-block;
+            width: 100%;
+      }
+
+      .slogan-text:nth-child(1) {
+            text-align: left;
+      }
+
+      .slogan-text:nth-child(2) {
+            text-align: center;
+      }
+
+      .slogan-text:nth-child(3) {
+            text-align: right;
+      }
+
+      .man {
+            display: block;
+            background: url('../images/man2.png') no-repeat;
+            background-size: cover;
+            height: 100%;
+            width: 37vh;
+            left: 15%;
+            top: -54px;
+      }
+
+      .castle {
+            display: block;
+            width: 240px;
+            height: 240px;
+            background: url('../images/castle.png') no-repeat;
+            background-size: cover;
+            position: absolute;
+            left: 15%;
+            top: 203px;
+      }
+
+      .text-container {
+            margin-top: 0;
+            margin-bottom: 29px;
+      }
+
+      .link-container {
+            margin-top: 0;
+      }
+
+      .text-img {
+            width: 100%;
+            height: calc(100vw / 9);
+      }
+
+      .button-block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+      }
+
+      .parallelogram {
+            height: 56px;
+            width: 300px;
+      }
+
+      .parallelogram::before {
+            height: 56px;
+            width: 300px;
+            top: 10px;
+            left: 6px;
+      }
+
+      .parallelogram-text {
+            line-height: 56px;
+            font-size: 16px;
+      }
+
+      p.text:nth-child(3) {
+            display: inline-block;
+            width: 100%;
+            text-align: right;
+            margin-top: 14px;
+      }
+
+      .link-container {
+            margin-top: 20px;
+      }
+
+      .page-cup-container {
+            padding-top: 40px;
+            justify-content: center;
+      }
+
+      .footer_left-block {
+            justify-content: space-evenly;
+            align-items: center;
+            border-top: 1px solid rgb(69, 58, 86);
+            border-bottom: 1px solid rgb(69, 58, 86);
+            flex-wrap: wrap;
+      }
+
+      .footer_rightt-block {
+            justify-content: center;
+
+      }
+
+      .footer-img {
+            margin-left: 0;
+      }
+
+      .footer_img-container {
+            text-align: center;
+      }
+
+      .footer_img-container:nth-child(1) {
+            flex-basis: 48%;
+            text-align: right;
+            padding-right: 5px;
+      }
+
+      .footer_img-container:nth-child(2) {
+            flex-basis: 45%;
+            text-align: left;
+            padding-left: 5px;
+      }
+
+      .footer_img-container:nth-child(3) {
+            flex-basis: 38%;
+            text-align: right;
+            padding-right: 5px;
+      }
+
+      .footer_img-container:nth-child(5) {
+            flex-basis: 36%;
+            text-align: left;
+            padding-right: 5px;
+      }
+}

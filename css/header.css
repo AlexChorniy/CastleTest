@@ -1,0 +1,47 @@
+@font-face {
+      font-family: NeueMachina-Regular;
+      src: url('../Fonts/NeueMachina-Regular.ttf');
+}
+
+.page-logo {
+      height: 100%;
+      grid-area: l;
+}
+
+.page-cup-container {
+      grid-area: h;
+      display: flex;
+      justify-content: flex-end;
+      position: relative;
+      z-index: 6;
+}
+
+.page-cup {
+      height: 100%;
+      position: relative;
+      color: white;
+      display: flex;
+      font-family: NeueMachina-Regular;
+}
+
+.cup {
+      position: absolute;
+      top: -19px;
+      left: -40px;
+}
+
+.cup-title {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 21px;
+      line-height: 20.5px;
+      letter-spacing: 1px;
+}
+
+.cup-subtitle {
+      position: absolute;
+      top: 42px;
+      font-size: 8px;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.5);
+}

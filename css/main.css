@@ -1,0 +1,138 @@
+@font-face {
+      font-family: Heavy-Italic;
+      src: url('../Fonts/Druk\ Text\ Wide\ Cyr\ Heavy\ Italic.otf');
+}
+
+@font-face {
+      font-family: NeueMachina;
+      src: url('../Fonts/NeueMachina-Regular.ttf');
+}
+
+:root {
+      --top-man: 0;
+      --left-man: 40%;
+}
+
+.text-container {
+      grid-area: t;
+      margin-top: 105px;
+      font-family: Heavy-Italic;
+      color: white;
+      text-transform: uppercase;
+      font-size: 48px;
+}
+
+p.text:nth-child(2) {
+      font-size: 97px;
+      margin-top: 10px;
+      color: rgb(248, 255, 19);
+}
+
+p.text:nth-child(3) {
+      margin-top: 27px;
+}
+
+.text-img {
+      position: relative;
+      z-index: 6;
+}
+
+.button-block {
+      grid-area: b;
+      z-index: 2;
+      font-family: Heavy-Italic;
+      text-transform: uppercase;
+}
+
+.slogan-block {
+      grid-area: i;
+      font-size: 48px;
+      width: 100%;
+      word-wrap: normal;
+      text-align: center;
+      z-index: 1;
+      font-family: Heavy-Italic;
+      text-transform: uppercase;
+}
+
+p.slogan {
+      color: white;
+      width: 100%;
+}
+
+.man {
+      position: absolute;
+      top: var(--top-man);
+      left: var(--left-man);
+      height: 100%;
+      width: 75vh;
+      background: url('../images/man.png') no-repeat;
+      background-size: cover;
+      mix-blend-mode: hard-light;
+      z-index: 0;
+}
+
+.button {
+      position: relative;
+}
+
+.parallelogram {
+      background-color: rgb(248, 255, 19);
+      height: 87px;
+      width: 463px;
+      transform: skew(-20deg);
+      position: relative;
+      cursor: pointer;
+      transform-style: preserve-3d;
+}
+
+.parallelogram::before {
+      content: 'data-before';
+      display: var(--visibility);
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      height: 87px;
+      width: 463px;
+      border: 2px solid white;
+      transform: translateZ(-1px);
+      background-color: rgb(62, 27, 121, 0.5);
+}
+
+.change-bgcolor {
+      background-color: white;
+}
+
+.parallelogram-text {
+      line-height: 87px;
+      text-align: center;
+      font-size: 26px;
+      color: black;
+      cursor: pointer;
+      font-family: Heavy-Italic;
+      transform: skew(20deg);
+}
+
+.link-container {
+      grid-area: a;
+      margin-top: 32px;
+      text-align: center;
+}
+
+.link {
+      color: white;
+      margin-left: 29px;
+      font-family: NeueMachina;
+}
+
+.footer_picture-container:nth-child(1) {
+      margin-right: 5px;
+}
+
+.footer_picture-container:nth-child(2) {
+      margin-left: 5px;
+}
+
+.castle {
+      display: none;
+}

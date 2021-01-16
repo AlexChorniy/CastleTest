@@ -1,0 +1,21 @@
+.wrapper {
+    min-height: 100vh;
+    background: url('../images/bgWithCastle.png') no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 6vh 59vh  13vh 18vh 4vh;
+    grid-template-areas: 
+        "l l . . . . . . . h h h"
+        "t t t t t . . . . . . ."
+        "b b b b . i i i i i i i"
+        "a a a a . . . . . . . ."
+        "f f f f . . . . . . . g"
+    ;
+}
